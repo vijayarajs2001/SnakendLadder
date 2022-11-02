@@ -1,0 +1,13 @@
+.gridclass{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.mainclassundergrid{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function manis() {
+
+            let elements = document.createElement('div')
+            // let h1 = document.createElement('h1')
+            // let h1div = document.createElement('div')
+            // h1div.setAttribute('className','hi')
+            // h1.appendChild(h1div)
+            // elements.appendChild(h1)
+
+            elements.innerHTML =  '<div id="element"><h1><div className="hi"></div></h1><button onClick={diceCount}><h2>DICE</h2></button><h1 id="p1"></h1><h1 id="p2"></h1></div>'
+
+
+            console.log(elements)
+        }
+        manis()
+    </script>
+</body>
+
+</html>

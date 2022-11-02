@@ -1,0 +1,98 @@
+
+
+ .grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 700px;
+    height: 600px;
+    background-color: rgb(105, 38, 172);
+    border: rgb(45, 9, 27) solid;
+}
+.grid>div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 5px;
+    border: 1px solid;
+    width:62px;
+    height: 50px;
+    margin: 0.2em;
+    background-color:rgb(219, 219, 32);
+    border: rgb(10, 10, 10) solid;
+    border-radius: 8px;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(75, 54, 31);
+    /* position: fixed; */
+    
+}
+header{ 
+    display: grid;
+    grid-template-columns: 3,3fr;
+    background-color: rgb(230, 122, 122);
+    border:3px solid rgb(31, 16, 61);
+    height: 400px;
+    width: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: repeating-radial-gradient(farthest-corner at 90px 90px , rgb(141, 38, 94) 30%,rgb(79, 46, 19) 60%);
+}
+header>div{
+    display: flex;
+    text-align: center;
+}
+ .heading{
+    color: rgb(253, 247, 241);
+
+ }
+ .image{
+    height: 150px;
+    width: 150px;
+display: flex;
+text-align: right;
+border-radius:10px;
+padding-top: 7px;
+ }
+.playeroneid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgb(25, 67, 67);
+    border-radius:10px;
+}
+.playertwoid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgb(23, 87, 87);
+    border-radius:10px;
+}
+  #display{
+    background-color: blue;
+    border-radius:10px;
+  }
+.ladderchange{
+position: absolute;
+}
+.invisible{
+    display: none;
+}
+/* #ladderss1{
+    position: absolute;
+    height: 135px;
+    width: 59px;
+    /* rotate: -50deg; */
+    /* margin-top: 28rem;
+    margin-left: 47.4rem;
+} */ 
+.restart{
+    margin-right: 370px;
+    border-radius:10px;
+    background-color: blueviolet;
+}
